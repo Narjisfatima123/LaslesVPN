@@ -1,0 +1,1169 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(Rubik/static/Rubik-ExtraBold.ttf);
+    src: url(Rubik/static/Rubik-Light.ttf);
+    src: url(Rubik/static/Rubik-Medium.ttf);
+    src: url(Rubik/static/Rubik-Regular.ttf);
+}
+
+@media (max-width:768px)
+{ 
+    body
+    {background-color: red;
+     /* width: calc(); */
+    }
+    
+    /* width: calc; */
+}
+.full-width {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1140px;
+    /* background-color: white; */
+    /* border: 8px solid black; */
+}
+
+header {
+    width: 100%;
+}
+
+header .main {
+
+    max-width: 1140px;
+    padding-top: 28px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+
+header .main .img {
+
+    padding-top: 7px;
+    padding-left: 11px;
+}
+
+
+header .main div h5 {
+
+    font-family: Rubik;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 6px;
+    padding-left: 7px;
+
+}
+
+header .main div h5 span {
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 6px;
+}
+
+header .main .div-1 {
+    line-height: 40.9px;
+    padding-left: 100px;
+}
+
+
+header nav ul {
+    list-style: none;
+
+}
+
+
+header nav ul li {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 26px;
+    display: inline-block;
+}
+
+
+header nav ul .help {
+    padding-left: 25px;
+}
+
+
+header nav ul .sign-in {
+    padding-left: 78px;
+}
+
+
+header nav ul .button {
+    padding-left: 5px;
+}
+
+
+header nav ul li a {
+    color: #4F5665;
+    text-decoration: none;
+}
+
+
+header nav ul .sign-in a {
+    color: black;
+}
+
+
+header nav ul .button button {
+    background-color: white;
+    border: 2px solid red;
+    padding: 6px 25px;
+    border-radius: 34px;
+}
+
+
+header nav ul .button button a {
+    color: red;
+}
+
+
+header nav ul li a:hover {
+    text-decoration: underline blue;
+
+}
+
+/*  */
+.full-width .container .box1 {
+    padding-top: 80px;
+    display: flex;
+}
+
+.full-width .container .box1 .div-1 {
+    /* top: 206.77px; */
+
+    width: 50%;
+}
+
+.full-width .container .box1 .div-1 h1 {
+
+    font-family: Rubik;
+    font-Weight: 500;
+    font-size: 50px;
+    Line-height: 70px;
+}
+
+.full-width .container .box1 .div-1 h1 span {
+
+    font-family: Rubik;
+    font-Weight: 700;
+    font-size: 50px;
+    Line-height: 70px;
+}
+
+.full-width .container .box1 .div-1 p {
+    font-family: Rubik;
+    font-Weight: 400;
+    font-size: 16px;
+    Line-height: 30px;
+}
+
+.full-width .container .box1 .div-1 p span {
+    font-family: Rubik;
+    font-Weight: 600;
+    font-size: 16px;
+    Line-height: 30px;
+}
+
+.full-width .container .box1 .div-1 button {
+    width: 250px;
+    height: 60px;
+    line-height: 32px;
+    margin-top: 29px;
+    border: red 2px solid;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px #ff550080
+}
+
+.full-width .container .box1 .div-1 button a {
+
+    width: 95px;
+    height: 20px;
+    padding: 42px 30px;
+    text-decoration: none;
+    color: white;
+    font-family: Rubik;
+    font-Weight: 700;
+    font-size: 16px;
+    Line-height: 25px;
+}
+
+/*  */
+.full-width .container .box-2 {
+    height: 132px;
+    width: 841px;
+    background-color: white;
+    padding-left: 51px;
+    padding-top: 53px;
+    display: flex;
+    margin: 52px 117px;
+    box-shadow: 10px 5px 5px beige;
+}
+
+.full-width .container .box-2 .div-1 {
+    display: flex;
+    width: 165px;
+    padding-left: 4px;
+
+}
+
+.full-width .container .box-2 .div-1 div ul {
+    list-style: none;
+    padding-left: 18px;
+
+}
+
+/* .full-width .container .box-2 .div-1 div ul li h4{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-style: 20px;
+    line-height: 30px;
+} */
+/* .full-width .container .box-2 .div-1 div ul li h5{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-style: 20px;
+    line-height: 30px;
+} */
+.full-width .container .box-2 .div-2 {
+    width: 165px;
+    display: flex;
+    padding-left: 82px;
+}
+
+.full-width .container .box-2 .div-2 div ul {
+    list-style: none;
+    padding-left: 18px;
+}
+
+.full-width .container .box-2 .div-3 {
+    width: 165px;
+    padding-left: 195px;
+    display: flex;
+}
+
+.full-width .container .box-2 .div-3 div ul {
+    list-style: none;
+    padding-left: 18px
+}
+
+.full-width .container .box-2 ul li:nth-child(2) {
+    color: #4a5160;
+
+}
+
+/*  */
+.full-width .container .box-3 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* background-color: aqua; */
+    height: 317px;
+    width: 100%;
+}
+
+.full-width .container .box-3 .img {
+    padding-left: 123px;
+    padding-top: 32px;
+    width: 65%;
+    /* background-color: blueviolet; */
+}
+
+.full-width .container .box-3 .square {
+    width: 35%;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+}
+
+
+.full-width .container .box-3 .square h4 {
+    text-align: center;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.full-width .container .box-3 .square p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    ;
+}
+
+.full-width .container .box-3 .square .main .div-1 ul {
+    list-style-type: none;
+}
+
+.full-width .container .box-3 .square .main .div-1 ul li::before {
+    content: "";
+    background-image: url(images/Vector\ \(5\).png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+   
+}
+
+.full-width .container .box-3 .square .main .div-1 ul li p {
+    position: relative;
+    left: 28px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+/* sec-2 */
+.full-width {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    /* max-width: ; */
+
+}
+
+/* .bg-clr { */
+
+/* background-color: #F8F8F8; */
+/* background-color: #E5E5E5;
+    width: 80%;
+    height: 700px;
+
+} */
+.full-width .container .center1 {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.full-width .container .center1 h3 {
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.full-width .container .center1 .para1 {
+    left: 316.5px;
+    height: 60px;
+    position: relative;
+    width: 522px;
+    line-height: 30px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.full-width .container .flex {
+    height: 467px;
+    width: 80%;
+    margin-left: 16%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.full-width .container .flex .div-1 {
+    border-radius: 19px;
+    height: 532px;
+
+    border: 1.5px solid beige;
+    width: 25%;
+    padding-left: 21px;
+    padding-top: 43px;
+    background-color: white
+}
+
+.full-width .container .flex .div-1 .img {
+    padding-left: 19px;
+}
+
+.full-width .container .flex .div-1 .button {
+    padding-top: 72px;
+    padding-left: 10px
+}
+
+.full-width .container .flex .div-1 .button h4 {
+    padding-left: 38px;
+}
+
+.full-width .container .flex .div-1 .button button {
+    border: 1.5px solid red;
+    border-radius: 10px;
+    padding: 8px 38px;
+    background-color: white;
+}
+
+.full-width .container .flex .div-1 .button button a {
+    text-decoration: none;
+    color: rgb(232, 33, 33);
+}
+
+.full-width .container .flex .div-1 h4 {
+    padding-left: 20px;
+    line-height: 46px
+}
+
+.full-width .container .flex .div-1 .main-div {
+    line-height: 28px;
+}
+.full-width .container .flex .div-1 .main-div  ul{
+    list-style: none;
+}
+
+.full-width .container .flex .div-1 .main-div  ul li::before{
+    content: "";    
+    background-image: url(images/Group\ 1223.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    }
+    .full-width .container .flex .div-1 .main-div  ul li p{
+
+    
+    position: relative;
+    left: 28px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+.full-width .container .flex .div-2 .main-div {
+    line-height: 28px;
+}
+.full-width .container .flex .div-2 .main-div  ul{
+    list-style: none;
+}
+
+
+.full-width .container .flex .div-2 .main-div  ul li::before{
+    content: "";    
+    background-image: url(images/Group\ 1223.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    }
+    .full-width .container .flex .div-2 .main-div  ul li p{
+
+    
+    position: relative;
+    left: 28px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+.full-width .container .flex .div-3 .main-div {
+    line-height: 28px;
+}
+.full-width .container .flex .div-3 .main-div  ul{
+    list-style: none;
+}
+.full-width .container .flex .div-3 .main-div  ul li::before{
+    content: "";    
+    background-image: url(images/Group\ 1223.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    }
+    .full-width .container .flex .div-3 .main-div  ul li p{
+
+    
+    position: relative;
+    left: 28px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+/* 
+.full-width .container .flex .div-1 .main-div .div_1 {
+    display: flex;
+}
+
+.full-width .container .flex .div-1 .main-div .div_2 {
+    display: flex;
+}
+
+.full-width .container .flex .div-1 .main-div .div_3 {
+    display: flex;
+}
+
+.full-width .container .flex .div-1 .main-div .div_4 {
+    display: flex;
+} */
+
+/* 
+.full-width .container .flex .div-2 .main-div .div_1 {
+    display: flex;
+} */
+/* 
+.full-width .container .flex .div-2 .main-div .div_2 {
+    display: flex;
+}
+
+.full-width .container .flex .div-2 .main-div .div_3 {
+    display: flex;
+}
+
+.full-width .container .flex .div-2 .main-div .div_4 {
+    display: flex;
+}
+ */
+/* 
+.full-width .container .flex .div-3 .main-div .div_1 {
+    display: flex;
+}
+
+.full-width .container .flex .div-3 .main-div .div_2 {
+    display: flex;
+}
+
+.full-width .container .flex .div-3 .main-div .div_3 {
+    display: flex;
+}
+
+.full-width .container .flex .div-3 .main-div .div_4 {
+    display: flex;
+} */
+
+.full-width .container .flex .div-2 {
+    border: 1.5px solid beige;
+    border-radius: 19px;
+    height: 532px;
+    width: 25%;
+    padding-left: 25px;
+    margin-left: 40px;
+    padding-top: 43px;
+    background-color: white
+}
+
+.full-width .container .flex .div-2 h4 {
+    line-height: 46px
+}
+
+.full-width .container .flex .div-2 .img {
+    padding-left: 28px;
+}
+
+.full-width .container .flex .div-2 .button {
+    padding-top: 67px;
+    padding-left: 20px;
+}
+
+.full-width .container .flex .div-2 .button h4 {
+    padding-left: 38px;
+}
+
+.full-width .container .flex .div-2 .button button {
+    border: 1.5px solid red;
+    border-radius: 10px;
+    padding: 8px 38px;
+    background-color: white;
+}
+
+.full-width .container .flex .div-2 .button button a {
+    text-decoration: none;
+    color: rgb(232, 33, 33);
+}
+
+.full-width .container .flex .div-3 {
+    border: 1px solid red;
+    border-radius: 19px;
+    height: 532px;
+    width: 25%;
+    padding-left: 35px;
+    margin-left: 40px;
+    padding-top: 43px;
+    background-color: white
+}
+
+.full-width .container .flex .div-3 h4 {
+    line-height: 46px
+}
+
+.full-width .container .flex .div-3 .img {
+    padding-left: 20px;
+}
+
+.full-width .container .flex .div-3 .button {
+    padding-top: 67px;
+    padding-left: 20px;
+}
+
+.full-width .container .flex .div-3 .button h4 {
+    padding-left: 38px;
+}
+
+.full-width .container .flex .div-3 .button button {
+    border: 1.5px solid red;
+    border-radius: 10px;
+    padding: 8px 38px;
+    background-color: red;
+}
+
+.full-width .container .flex .div-3 .button button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* sec-3 */
+
+.full-width {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    /* max-width: 1440; */
+    /* background-color: white; */
+
+
+}
+
+.full-width .container .center2 {
+    text-align: center;
+    position: relative;
+    top: 61px;
+
+}
+
+.full-width .container .center2 h2 {
+    position: relative;
+    left: 367.3px;
+
+    width: 381px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.full-width .container .center2 #para {
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    left: 307px;
+    width: 518px;
+}
+
+.full-width .container #para span {
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.full-width .container .Vector {
+    margin-top: 72px;
+    margin-left: 142px
+}
+
+/* */
+.full-width .container .Logo {
+    display: flex;
+    height: 160px;
+    margin-left: 110px;
+    width: 80%;
+    padding-top: 42px;
+    padding-left: 20px;
+}
+
+.full-width .container .Logo div:nth-child(even) {
+    padding-left: 30px;
+}
+
+.full-width .container .Logo div:nth-child(odd) {
+    padding-left: 30px;
+}
+
+/* sec-4 */
+.full-width {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    /* max-width: ; */
+    /* background-color: white; */
+
+}
+
+.full-width .container .center3 {
+    text-align: center;
+    /* background-color: tomato; */
+}
+
+.full-width .container h2 {
+
+    padding-top: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    width: 359px;
+    position: relative;
+    left: 322px;
+}
+
+.full-width .container .para {
+
+    color: #4a5160;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    line-height: 30px;
+    width: 525px;
+    left: 225px;
+}
+
+/*  */
+.full-width .container .main_Box {
+    display: flex;
+    /* width: 821px; */
+    position: relative;
+    top: 50px;
+}
+
+.full-width .container .main_Box .div-1 {
+    border-radius: 15px;
+    height: 150px;
+    width: 570px;
+    border: 2px solid red;
+    box-shadow: 0px 5px 5px beige;
+
+}
+
+.full-width .container .main_Box .div-1 .flex-1 {
+    display: flex;
+    padding-top: 14px;
+    padding-left: 20px;
+
+}
+
+.full-width .container .main_Box .div-1 .flex-1 ul {
+    list-style: none;
+}
+
+.full-width .container .main_Box .div-1 .flex-1 ul li h5 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.full-width .container .main_Box .div-1 p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 20px 20px;
+}
+
+/*  */
+
+.full-width .container .main_Box .div-2 {
+    border: 2px solid beige;
+    margin-left: 25px;
+    border-radius: 15px;
+    height: 155px;
+    width: 540px;
+}
+
+.full-width .container .main_Box .div-2 .flex-1 {
+    display: flex;
+    padding-top: 14px;
+    padding-left: 20px;
+
+}
+
+.full-width .container .main_Box .div-2 .flex-1 ul {
+    list-style: none;
+}
+
+/*  */
+
+.full-width .container .main_Box .div-3 {
+    border: 2px solid beige;
+
+    margin-left: 21px;
+    border-radius: 15px;
+    height: 155px;
+    width: 540px;
+}
+
+.full-width .container .main_Box .div-3 .flex-1 {
+    display: flex;
+
+
+    padding-top: 14px;
+    padding-left: 20px;
+
+}
+
+.full-width .container .main_Box .div-3 .flex-1 ul {
+    list-style: none;
+}
+
+.full-width .container .main_Box .div-1 p {
+    padding: 12px 12px;
+    line-height: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.full-width .container .main_Box .div-2 p {
+    padding: 12px 12px;
+    line-height: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.full-width .container .main_Box .div-3 p {
+    padding: 12px 12px;
+    line-height: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+/*  */
+.full-width .container .Box-img {
+    margin-left: 88px;
+    width: 80%;
+    margin-top: 55px;
+    margin-left: 80px;
+    display: flex;
+
+}
+
+.full-width .container .Box-img div:nth-child(1) {
+
+    margin-top: 40px;
+}
+
+.full-width .container .Box-img div:nth-child(2) {
+
+
+    padding-top: 23px;
+    margin-left: 398px;
+    padding-left: 203px;
+}
+
+/* sec-5 */
+.full-width {
+    width: 100%;
+}
+
+.container1 {
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    /* max-width: ; */
+    background-color: beige;
+
+    /* border: 2px solid black; */
+}
+
+
+.full-width .container1 .flex-2 {
+    height: 147px;
+    width: 80%;
+    display: flex;
+    margin-left: 97px;
+}
+
+.full-width .container1 .flex-2 .main-div-1 {
+    width: 600px;
+}
+
+.full-width .container1 .flex-2 .main-div-1 h3 {
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+
+}
+
+.full-width .container1 .flex-2 .main-div-1 p {
+    text-align: center;
+    padding-top: 15px;
+    color: #4F5665;
+}
+
+.full-width .container1 .flex-2 .main-div-2 {
+
+    width: 203px;
+}
+
+.full-width .container1 .flex-2 .main-div-2 button {
+    border: 1.5px solid red;
+    border-radius: 10px;
+    /* margin-left: 300px; */
+    margin-top: 62px;
+    padding: 17px 46px;
+    background-color: red;
+    box-shadow: #ff47009e 0 14px 22px;
+}
+
+.full-width .container1 .flex-2 .main-div-2 button a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* sec-6 */
+.full-width {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    /* max-width: ; */
+    /* background-color: white; */
+    /* border: 8px solid black; */
+}
+
+.color {
+    background-color: #F8F8F8;
+    width: 80%;
+    height: 500px;
+
+
+}
+
+.full-width .container .footer {
+
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 123px;
+}
+
+.full-width .container .footer .main_div {
+    display: flex;
+}
+
+.full-width .container .footer .main_div #div-1 {
+    width: 55%;
+    height: 400px;
+}
+
+.full-width .container .footer .main_div #div-1 .flex {
+
+    height: 122px;
+    display: block;
+}
+
+.full-width .container .footer .main_div #div-1 .flex P {
+    padding-top: 22px;
+    display: block;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4a5160;
+}
+
+.full-width .container .footer .main_div #div-1 .flex .main {
+    display: flex;
+}
+
+.full-width .container .footer .main_div #div-1 .flex .main .img {
+    padding-top: 10px;
+}
+
+.full-width .container .footer .main_div #div-1 .flex .main .h5 {
+    font-family: Rubik;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 6px;
+    padding-left: 7px;
+}
+
+.full-width .container .footer .main_div #div-1 .flex .main .h5 span {
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 6px;
+}
+
+/*  */
+.full-width .container .footer .main_div #div-1 .flex1-1 {
+    display: flex;
+    padding-left: 57px;
+}
+
+.full-width .container .footer .main_div #div-2 {
+    width: 25%;
+    height: 400px;
+}
+
+.full-width .container .footer .main_div #div-2 ul {
+    list-style: none;
+}
+
+.full-width .container .footer .main_div #div-2 ul li {
+    line-height: 44px;
+}
+
+.full-width .container .footer .main_div #div-2 ul li a {
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #4F5665;
+
+}
+
+.full-width .container .footer .main_div #div-2 ul .first a {
+    color: black;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.full-width .container .footer .main_div #div-3 {
+    width: 25%;
+    height: 400px;
+}
+
+.full-width .container .footer .main_div #div-3 ul {
+    list-style: none;
+}
+
+.full-width .container .footer .main_div #div-3 ul li {
+    line-height: 44px;
+}
+
+.full-width .container .footer .main_div #div-3 ul li a {
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #4F5665;
+}
+
+.full-width .container .footer .main_div #div-3 ul .first a {
+    color: black;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.full-width .container .footer .main_div #div-4 {
+    width: 25%;
+    height: 326px;
+}
+
+.full-width .container .footer .main_div #div-4 ul {
+    list-style: none;
+}
+
+.full-width .container .footer .main_div #div-4 ul li {
+    line-height: 44px;
+}
+
+.full-width .container .footer .main_div #div-4 ul li a {
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #4F5665;
+
+}
+
+.full-width .container .footer .main_div #div-4 ul .first a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+}
